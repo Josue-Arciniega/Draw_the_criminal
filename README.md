@@ -6,7 +6,7 @@ Introducción: La idea surge a partir de el robo de celulares, un delito bastant
 
 Hacer una denuncia es algo parecido a lo siguiente.
 
-![Encuesta de denunca anonima](./img_git_readme/CP_encuesta.png?raw=true "Ejemplo 1")
+![Encuesta de denunca anonima](./img_git_readme/CP_encuesta.png?raw=true "Encuesta")
 
 En este repositorio hay unicamente la parte del modelo propuesto para generar las imagenes a partir de el bosquejo de las denuncias.
 
@@ -18,8 +18,8 @@ Se descargo el archivo del dataset de nombre img_align_celeba, que contiene imag
 for x in $(ls img_align_celeba | head -n 1000); do python3 face_cropper_crop.py $x ; done
 
 El resultado fue el siguiente:
-![Ejemplo de evolucion de el sistema](relative/path/to/img.jpg?raw=true "Ejemplo 1")
-![Ejemplo de evolucion de el sistema](relative/path/to/img.jpg?raw=true "Ejemplo 1")
+Imagen antes del proceso:![Imagen original](./img_git_readme/000001.jpg?raw=true "Original")
+Imagen despues del proceso:![Imagen_recortada](./img_git_readme/000001_tg.jpg?raw=true "Recorte")
 
 Preparacion del dataset:Se uso un pequeno programa de python que hace uso de OpenCV para aplicar un tratamiento a las imagenes, y fue ejecutado a travez de un ciclo de bash.
 El procesamiento consistio en detectar los bordes de las caras, para asi simular un bosquejo de las caras y evitar hacerlo a mano.
