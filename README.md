@@ -6,7 +6,7 @@ Introducción: La idea surge a partir de el robo de celulares, un delito bastant
 
 Hacer una denuncia es algo parecido a lo siguiente.
 
-![Encuesta de denunca anonima](./CP_encuesta.png?raw=true "Ejemplo 1")
+![Encuesta de denunca anonima](./img_git_readme/CP_encuesta.png?raw=true "Ejemplo 1")
 
 En este repositorio hay unicamente la parte del modelo propuesto para generar las imagenes a partir de el bosquejo de las denuncias.
 
