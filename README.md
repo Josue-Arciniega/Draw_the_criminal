@@ -46,7 +46,7 @@ El resultado fue el siguiente:
 Posteriormente se hiceron pequenos cambios a el codigo propuesto por DOTCSV en su video (https://www.youtube.com/watch?v=YsrMGcgfETY&t=2691s) y se comenzo el entremamiento, a continuacion se presentan los resultados
 
 <p align="center" font>
-  Bordes de la imagen<br>
+  Imagen generada<br>
   <img src="./img_git_readme/000005.jpg">
   <img src="./img_git_readme/Generada.jpg">
   <img src="./img_git_readme/000005_tg .jpg">
