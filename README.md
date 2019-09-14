@@ -20,8 +20,9 @@ for x in $(ls img_align_celeba | head -n 1000); do python3 face_cropper_crop.py 
 El resultado fue el siguiente:
 Imagen antes del proceso:
 <p align="center">
-  Imagen original \n
-  <img width="460" height="300" src="./img_git_readme/000001.jpg">
+  Imagen original 
+  
+  <img src="./img_git_readme/000001.jpg">
 </p>
 Imagen despues del proceso:![Imagen_recortada](./img_git_readme/000001_tg.jpg?raw=true "Recorte")
 
