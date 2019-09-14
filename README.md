@@ -32,13 +32,15 @@ Imagen despues del proceso:
 </p>
 
 Preparacion del dataset:Se uso un pequeno programa de python que hace uso de OpenCV para aplicar un tratamiento a las imagenes, y fue ejecutado a travez de un ciclo de bash.
-El procesamiento consistio en detectar los bordes de las caras, para asi simular un bosquejo de las caras y evitar hacerlo a mano.
+El procesamiento consistio en detectar los bordes de las caras,para asi simular un bosquejo de las caras y evitar hacerlo a mano.
 
 for x in $(ls img_align_celeba | head -n 1000); do python3 face_cropper_border.py $x ; done
 
 El resultado fue el siguiente:
-![Ejemplo de evolucion de el sistema](relative/path/to/img.jpg?raw=true "Ejemplo 1")
-![Ejemplo de evolucion de el sistema](relative/path/to/img.jpg?raw=true "Ejemplo 1")
-
+<p align="center" font>
+  Imagen recortada<br>
+  <img src="./img_git_readme/000001_tg.jpg">
+  <img src="./img_git_readme/000001_bor.jpg">
+</p>
 
 Posteriormente se hiceron pequenos cambios 
