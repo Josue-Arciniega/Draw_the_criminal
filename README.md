@@ -20,7 +20,7 @@ for x in $(ls img_align_celeba | head -n 1000); do python3 face_cropper_crop.py 
 El resultado fue el siguiente:
 Imagen antes del proceso:
 <p align="center" font>
-  algo
+  algo<br>
   <img src="./img_git_readme/000001.jpg">
 </p>
 <center>Imagen original<\center>
