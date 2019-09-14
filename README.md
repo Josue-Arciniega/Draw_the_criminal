@@ -18,7 +18,11 @@ Se descargo el archivo del dataset de nombre img_align_celeba, que contiene imag
 for x in $(ls img_align_celeba | head -n 1000); do python3 face_cropper_crop.py $x ; done
 
 El resultado fue el siguiente:
-Imagen antes del proceso:![Imagen original](./img_git_readme/000001.jpg?raw=true "Original")
+Imagen antes del proceso:
+<p align="center">
+  Imagen original \n
+  <img width="460" height="300" src="./img_git_readme/000001.jpg">
+</p>
 Imagen despues del proceso:![Imagen_recortada](./img_git_readme/000001_tg.jpg?raw=true "Recorte")
 
 Preparacion del dataset:Se uso un pequeno programa de python que hace uso de OpenCV para aplicar un tratamiento a las imagenes, y fue ejecutado a travez de un ciclo de bash.
