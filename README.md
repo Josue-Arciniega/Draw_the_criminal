@@ -52,8 +52,8 @@ Posteriormente se hiceron pequenos cambios a el codigo propuesto por DOTCSV en s
   <img src="./img_git_readme/000005_tg .jpg">
 </p>
 
-GIF
+Ejemplos de la evolucion del GIF
 <p align="center" font>
-  Imagen generada<br>
+  Ejemplo 1<br>
   <img src="./img_git_readme/Eje1.gif">
 </p>
