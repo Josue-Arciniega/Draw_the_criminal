@@ -18,18 +18,18 @@ Se descargo el archivo del dataset de nombre img_align_celeba, que contiene imag
 for x in $(ls img_align_celeba | head -n 1000); do python3 face_cropper_crop.py $x ; done
 
 El resultado fue el siguiente:
+
 Imagen antes del proceso:
 <p align="center" font>
-  algo<br>
+  Imagen original<br>
   <img src="./img_git_readme/000001.jpg">
 </p>
-<center>Imagen original<\center>
 
 Imagen despues del proceso:
 <p align="center" font>
+  Imagen recortada<br>
   <img src="./img_git_readme/000001_tg.jpg">
 </p>
-<center>Imagen recortada <\center>
 
 Preparacion del dataset:Se uso un pequeno programa de python que hace uso de OpenCV para aplicar un tratamiento a las imagenes, y fue ejecutado a travez de un ciclo de bash.
 El procesamiento consistio en detectar los bordes de las caras, para asi simular un bosquejo de las caras y evitar hacerlo a mano.
