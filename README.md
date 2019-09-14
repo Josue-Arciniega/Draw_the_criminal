@@ -51,3 +51,9 @@ Posteriormente se hiceron pequenos cambios a el codigo propuesto por DOTCSV en s
   <img src="./img_git_readme/Generada.jpg">
   <img src="./img_git_readme/000005_tg .jpg">
 </p>
+
+GIF
+<p align="center" font>
+  Imagen generada<br>
+  <img src="./img_git_readme/Eje1.gif">
+</p>
