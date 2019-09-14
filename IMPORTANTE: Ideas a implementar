@@ -1,0 +1,3 @@
+Primer idea: Segmentar el dataset entre hombres y mujeres y por color de piel y hacer el entrenaniento con pix2pixHD 
+Segunda idea: Hacer uso de otras redes, para segmentar y generar las partes de la cara de forma individual, y despues 
+reconstruirla,con el fin de obtener mejor precisión en los rasgos faciales y control individual de los mismos.
