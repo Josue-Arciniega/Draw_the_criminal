@@ -38,7 +38,7 @@ for x in $(ls img_align_celeba | head -n 1000); do python3 face_cropper_border.p
 
 El resultado fue el siguiente:
 <p align="center" font>
-  Imagen recortada<br>
+  Bordes de la imagen<br>
   <img src="./img_git_readme/000001_tg.jpg">
   <img src="./img_git_readme/000001_bor.jpg">
 </p>
