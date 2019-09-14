@@ -49,5 +49,5 @@ Posteriormente se hiceron pequenos cambios a el codigo propuesto por DOTCSV en s
   Bordes de la imagen<br>
   <img src="./img_git_readme/000005.jpg">
   <img src="./img_git_readme/Generada.jpg">
-  <img src="./img_git_readme/00000_tg.jpg">
+  <img src="./img_git_readme/000005_tg .jpg">
 </p>
